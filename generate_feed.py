@@ -16,6 +16,11 @@ fg.language("nl")
 
 results = data.get("resultaten", [])
 
+results.sort(
+    key=lambda x: x.get("document", {}).get("openbaarmakingsdatum", ""),
+    reverse=True
+)
+
 for item in results:
 
     document = item.get("document", {})
