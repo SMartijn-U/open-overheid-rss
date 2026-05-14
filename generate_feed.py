@@ -31,8 +31,7 @@ results = data.get("resultaten", [])
 # Nieuwste eerst sorteren
 results = sorted(
     results,
-    key=lambda x: x.get("document", {}).get("openbaarmakingsdatum", ""),
-    reverse=True
+    key=lambda x: x.get("document", {}).get("openbaarmakingsdatum", "")
 )
 
 # Entries toevoegen
