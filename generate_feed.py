@@ -28,14 +28,14 @@ fg.language("nl")
 # Resultaten ophalen
 results = data.get("resultaten", [])
 
-# Sorteren: nieuwste eerst
+# Nieuwste eerst sorteren
 results = sorted(
     results,
     key=lambda x: x.get("document", {}).get("openbaarmakingsdatum", ""),
     reverse=True
 )
 
-# RSS-items toevoegen
+# Entries toevoegen
 for item in results:
 
     document = item.get("document", {})
@@ -45,20 +45,17 @@ for item in results:
     pubdate = document.get("openbaarmakingsdatum")
     publisher = document.get("publisher", "")
 
-    # Entry toevoegen
-    fe = fg.add_entry(order='prepend')
+    fe = fg.add_entry()
 
     fe.title(title)
     fe.link(href=url)
     fe.guid(url)
     fe.description(publisher)
 
-    # Publicatiedatum correct als UTC instellen
     if pubdate:
         try:
             dt = datetime.fromisoformat(pubdate)
 
-            # Als geen tijd aanwezig is:
             if dt.tzinfo is None:
                 dt = dt.replace(tzinfo=timezone.utc)
 
