@@ -7,21 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>nl</language>
-    <lastBuildDate>Fri, 27 Nov 2026 11:54:44 +0000</lastBuildDate>
-    <item>
-      <title>Agenda ministerraad 9 oktober 2026</title>
-      <link>https://open.overheid.nl/documenten/78a0f0f5-ebfa-41cf-8c39-be146504cbe9</link>
-      <description>ministerie van Algemene Zaken</description>
-      <guid isPermaLink="true">https://open.overheid.nl/documenten/78a0f0f5-ebfa-41cf-8c39-be146504cbe9</guid>
-      <pubDate>Fri, 20 Nov 2026 15:11:18 +0000</pubDate>
-    </item>
-    <item>
-      <title>Besluitenlijst ministerraad 9 oktober 2026</title>
-      <link>https://open.overheid.nl/documenten/e9e3a891-17fd-4b03-9d76-4bba0405a382</link>
-      <description>ministerie van Algemene Zaken</description>
-      <guid isPermaLink="true">https://open.overheid.nl/documenten/e9e3a891-17fd-4b03-9d76-4bba0405a382</guid>
-      <pubDate>Fri, 20 Nov 2026 15:11:19 +0000</pubDate>
-    </item>
+    <lastBuildDate>Fri, 27 Nov 2026 13:12:22 +0000</lastBuildDate>
     <item>
       <title>Agenda ministerraad 16 oktober 2026</title>
       <link>https://open.overheid.nl/documenten/4aafa638-d49a-4fe5-95f7-dcf62fd91113</link>
@@ -147,6 +133,20 @@
       <description>ministerie van Algemene Zaken</description>
       <guid isPermaLink="true">https://open.overheid.nl/documenten/8c5ac880-3104-4f1a-8821-80a77a693525</guid>
       <pubDate>Fri, 27 Nov 2026 11:54:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>Besluitenlijst rijksministerraad 27 november 2026</title>
+      <link>https://open.overheid.nl/documenten/4f15afe1-f139-4206-a0e2-132ad8eaa96e</link>
+      <description>ministerie van Algemene Zaken</description>
+      <guid isPermaLink="true">https://open.overheid.nl/documenten/4f15afe1-f139-4206-a0e2-132ad8eaa96e</guid>
+      <pubDate>Fri, 27 Nov 2026 13:12:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>Besluitenlijst ministerraad 27 november 2026</title>
+      <link>https://open.overheid.nl/documenten/8355a0dd-3d31-4d7e-b97f-44e3069dc842</link>
+      <description>ministerie van Algemene Zaken</description>
+      <guid isPermaLink="true">https://open.overheid.nl/documenten/8355a0dd-3d31-4d7e-b97f-44e3069dc842</guid>
+      <pubDate>Fri, 27 Nov 2026 13:12:23 +0000</pubDate>
     </item>
   </channel>
 </rss>
